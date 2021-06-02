@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.movistar.ratemovies.cor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.movistar.ratemovies.infrastructure", "com.movistar.ratemovies.infrastructure\com.movistar.ratemovies.infrastructure.csproj", "{851A72B6-B938-419A-8968-ABA6461542F0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.movistar.ratemovies.tests", "com.movistar.ratemovies.tests\com.movistar.ratemovies.tests.csproj", "{EAD51C06-B4AC-4472-B742-ED766D534625}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "com.movistar.ratemovies.movie-data-mgt.ws", "com.movistar.ratemovies.movie-data-mgt.ws\com.movistar.ratemovies.movie-data-mgt.ws.csproj", "{7C081391-F61C-4540-A9BD-D89796E72AA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{851A72B6-B938-419A-8968-ABA6461542F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{851A72B6-B938-419A-8968-ABA6461542F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{851A72B6-B938-419A-8968-ABA6461542F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAD51C06-B4AC-4472-B742-ED766D534625}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAD51C06-B4AC-4472-B742-ED766D534625}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAD51C06-B4AC-4472-B742-ED766D534625}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAD51C06-B4AC-4472-B742-ED766D534625}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C081391-F61C-4540-A9BD-D89796E72AA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C081391-F61C-4540-A9BD-D89796E72AA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C081391-F61C-4540-A9BD-D89796E72AA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C081391-F61C-4540-A9BD-D89796E72AA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
