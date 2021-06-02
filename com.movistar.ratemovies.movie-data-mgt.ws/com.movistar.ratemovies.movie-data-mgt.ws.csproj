@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-com.movistar.ratemovies.movie_data_mgt.ws-0BCF450F-A8E8-4A84-B3FF-007051B82AFE</UserSecretsId>
+    <RootNamespace>com.movistar.ratemovies.movie_data_mgt.ws</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.15" />
+  </ItemGroup>
+</Project>
