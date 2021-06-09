@@ -8,6 +8,12 @@
     <Folder Include="Entities\" />
     <Folder Include="Interface\" />
     <Folder Include="Model\" />
-    <Folder Include="Services\" />
+    <Folder Include="Interface\Database\" />
+    <Folder Include="Interface\Database\Command\" />
+    <Folder Include="Interface\Database\Query\" />
+    <Folder Include="Interface\Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
   </ItemGroup>
 </Project>
