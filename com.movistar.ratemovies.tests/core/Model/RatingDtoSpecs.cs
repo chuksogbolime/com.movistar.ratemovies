@@ -10,12 +10,12 @@ namespace com.movistar.ratemovies.tests.core.Model
         [Fact]
         public void ShouldReturnValidSetValues()
         {
-            RateDto expected = GenerateData.InitRateDto();
+            RatingDto expected = GenerateData.InitRatingDto();
             expected.CreatedDate.ShouldBe(new DateTime(2021, 6, 2));
             expected.MovieId.ShouldBe("5fcba07c30e3af4497f5de17");
             expected.Comment.ShouldBe("Comments");
             expected.Id.ShouldBe(1);
-            expected.Rating.ShouldBe(3);
+            expected.Score.ShouldBe(3);
         }
     }
 }

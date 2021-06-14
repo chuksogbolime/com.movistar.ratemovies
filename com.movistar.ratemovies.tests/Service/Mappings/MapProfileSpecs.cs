@@ -28,8 +28,8 @@ namespace com.movistar.ratemovies.tests.Service.Mappings
         [Theory]
         [InlineData(typeof(ratemovies.core.Entities.Movie), typeof(MovieDto))]
         [InlineData(typeof(MovieDto), typeof(ratemovies.core.Entities.Movie))]
-        [InlineData(typeof(ratemovies.core.Entities.Rate), typeof(RateDto))]
-        [InlineData(typeof(RateDto), typeof(ratemovies.core.Entities.Rate))]
+        [InlineData(typeof(ratemovies.core.Entities.Rating), typeof(RatingDto))]
+        [InlineData(typeof(RatingDto), typeof(ratemovies.core.Entities.Rating))]
         public void Map_From_Source_To_Destination_Should_Be_Valid(Type source, Type destination)
         {
             var instance = Activator.CreateInstance(source);

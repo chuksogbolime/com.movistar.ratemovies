@@ -9,4 +9,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.15" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\com.movistar.ratemovies.Service\com.movistar.ratemovies.Service.csproj" />
+  </ItemGroup>
 </Project>

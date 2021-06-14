@@ -8,5 +8,6 @@ namespace com.movistar.ratemovies.core.Interface.Services
     public interface IMovieService
     {
         Task<(bool Flag, string Message)> AddAsync(MovieDto movie, CancellationToken cancellationToken);
+        Task ProcessMoviesFromEventBroker(CancellationToken cancellationToken);
     }
 }
