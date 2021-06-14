@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "com.movistar.ratemovies.movie_data_mgt.ws": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}
