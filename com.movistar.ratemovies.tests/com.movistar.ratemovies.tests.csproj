@@ -31,11 +31,15 @@
     <Folder Include="Service\" />
     <Folder Include="Service\Movie\" />
     <Folder Include="Service\Mappings\" />
+    <Folder Include="infrastructure\Database\Query\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\com.movistar.ratemovies.api\com.movistar.ratemovies.api.csproj" />
     <ProjectReference Include="..\com.movistar.ratemovies.core\com.movistar.ratemovies.core.csproj" />
     <ProjectReference Include="..\com.movistar.ratemovies.infrastructure\com.movistar.ratemovies.infrastructure.csproj" />
     <ProjectReference Include="..\com.movistar.ratemovies.Service\com.movistar.ratemovies.Service.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="infrastructure\Database\Query\" />
   </ItemGroup>
 </Project>

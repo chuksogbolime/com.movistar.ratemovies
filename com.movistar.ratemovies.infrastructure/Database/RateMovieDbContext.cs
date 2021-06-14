@@ -12,6 +12,7 @@ namespace com.movistar.ratemovies.infrastructure.Database
         }
 
         public DbSet<Movie> Movies { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

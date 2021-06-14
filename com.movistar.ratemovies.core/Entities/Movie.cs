@@ -8,13 +8,13 @@ namespace com.movistar.ratemovies.core.Entities
     {
         public Movie()
         {
-            Ratings = new HashSet<Rate>();
+            Ratings = new HashSet<Rating>();
         }
         public string Id { get; set; }
         public string Title { get; set; }
         public DateTime CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
 
-        public ICollection<Rate> Ratings { get; set; }
+        public ICollection<Rating> Ratings { get; set; }
     }
 }

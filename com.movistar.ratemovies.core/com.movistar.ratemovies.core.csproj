@@ -12,6 +12,8 @@
     <Folder Include="Interface\Database\Command\" />
     <Folder Include="Interface\Database\Query\" />
     <Folder Include="Interface\Services\" />
+    <Folder Include="Interface\MessageBroker\" />
+    <Folder Include="Enums\" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.1.1" />

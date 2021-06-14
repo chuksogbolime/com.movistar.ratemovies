@@ -8,7 +8,7 @@ namespace com.movistar.ratemovies.Service.Mappings
     {
         public RateMapProfile()
         {
-            CreateMap<core.Entities.Rate, RateDto>().ReverseMap();
+            CreateMap<core.Entities.Rating, RatingDto>().ReverseMap();
         }
     }
 }

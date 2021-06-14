@@ -14,14 +14,20 @@ namespace com.movistar.ratemovies.tests.core.Entities
             Title = "Test Title"
         };
 
-        public static Rate InitRate() => new Rate
+        public static Rating InitRating() => new Rating
         {
             Comment = "Comments",
             CreatedDate = new DateTime(2021, 6, 2),
             Id = 1,
             MovieId = "5fcba07c30e3af4497f5de17",
-            Rating = 3,
-            Movie = new Movie()
+            Score = 3,
+            Movie = new Movie
+            {
+                CreatedDate = new DateTime(2021, 6, 2),
+                Id = "5fcba07c30e3af4497f5de17",
+                ModifiedDate = null,
+                Title = "Test Title"
+            }
         };
     }
 }

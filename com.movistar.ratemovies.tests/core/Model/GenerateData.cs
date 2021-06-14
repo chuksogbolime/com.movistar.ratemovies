@@ -13,13 +13,13 @@ namespace com.movistar.ratemovies.tests.core.Model
             Title = "Test Title"
         };
 
-        public static RateDto InitRateDto() => new RateDto
+        public static RatingDto InitRatingDto() => new RatingDto
         {
             Comment = "Comments",
             CreatedDate = new DateTime(2021, 6, 2),
             Id = 1,
             MovieId = "5fcba07c30e3af4497f5de17",
-            Rating = 3
+            Score = 3
         };
     }
 }
